@@ -7,14 +7,28 @@ nav{
 header{
     width: 100%;
     height: 600px; 
-    background-color: lightgray;
+    background-image: url("../assets/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-right: 10%;
+}
+
+.overlay{
+    width: 120%;
+    height: 600px;
+    background-color: rgba(0,0,0,0.6);
     padding-top: 150px;
     padding-left: 10%;
-    padding-right: 10%;
 }
 
 header p{
     width: 400px;
+}
+
+nav h1{
+    font-family: "Press Start 2P";
+    font-size: 30px;
 }
 
 .nav-con{
@@ -32,7 +46,7 @@ header p{
     float: right;
     height: 26px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 10px;
@@ -60,7 +74,9 @@ header p{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-color: gray;
+    background-image: url(../assets/hands.jpg);
+    background-position: center;
+    background-size: cover;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -73,6 +89,49 @@ header p{
     margin-top: 50px;
     margin-bottom: 30px;
     background: lightgray;
+}
+
+.button-group{
+    width: 400px;
+    height: 50px;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+}
+
+.normal{
+   background-color: #2b2b2b;
+   color: white; 
+}
+
+.normal:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #2b2b2b;
+    border: 2px solid #2b2b2b;
+    padding-top: 5px !important;
+}
+
+.inverted{
+    width: 230px;
+    height: 40px;
+    border: 2px solid white;
+    font-weight: bold;
+    padding-top: 5px !important;
+}
+
+.inverted:hover{
+    cursor: pointer;
+    background-color: #2b2b2b;
+    color: white;
 }
 
 footer{
